@@ -1,0 +1,19 @@
+# Django REST Framework Tutorial Requirements
+# Essential packages for running the Django REST API project
+
+# Core Django framework
+Django==5.0.6
+
+# Django REST Framework for building APIs
+djangorestframework==3.15.2
+
+# Optional but recommended for production:
+# gunicorn>=20.1.0  # WSGI HTTP Server
+# psycopg2-binary>=2.9.0  # PostgreSQL adapter  
+# python-decouple>=3.6  # Environment variable management
+# django-cors-headers>=4.0.0  # CORS handling
+
+# Development dependencies (uncomment for development):
+# coverage>=7.0.0  # Test coverage reporting
+# black>=23.0.0  # Code formatting
+# flake8>=6.0.0  # Code linting
